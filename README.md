@@ -11,5 +11,6 @@ Inbox.find(api_inbox_id).channel.identifier
 ```
 2) Edit `frontend.js` and update `chatwoot.inboxIdentifier` with the value of channel identifier. 
 3) Run and local server and try interacting with the interface
-
-`python3 -m http.server` 
+```
+python3 -m http.server
+``` 
